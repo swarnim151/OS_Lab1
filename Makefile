@@ -1,9 +1,8 @@
-# stack_allocation/Makefile
+# list/Makefile
 #
-# Makefile for stack allocation example
-# 
-# Nitsan Shai
-# nshai@google.com
+# Makefile for list implementation and test file.
+#
+# <Swarnim>
 
-stack_allocation: main.c
-	gcc -o main main.c
+list: main.c
+	gcc -o main main.c list.h list.c
